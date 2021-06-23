@@ -1,5 +1,82 @@
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
 body {
-  background-color: #000;
-  width: 1440px;
-  height: 100vh;
+  background-color: hsl(233, 47%, 7%);
+  margin: 17rem;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: #fff;
+  font-family: 'Lexend Deca';
+
+}
+
+.cards {
+  display: flex;
+  border-radius: 0.8rem;
+  overflow: hidden;
+}
+
+.stats {
+  background-color: hsl(244, 38%, 16%);
+  width: 50%;
+  padding: 4rem 6rem 0 6rem;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-family: Inter;
+  line-height: 4.4rem;
+  font-weight: bold;
+  font-size: 3.6rem;
+  padding: 0;
+  width: 40.3rem;
+}
+
+p {
+  width: 37.4rem;
+}
+
+strong {
+  color: hsl(0, 0%, 100%);
+  font-size: 2.4rem;
+}
+
+.purple-insight {
+  color: hsl(277, 64%, 61%);
+}
+
+ul {
+  display: flex;
+  padding-inline-start: 0rem;
+  padding-block-start: 7rem;
+  padding-block-end: 7rem;
+}
+
+li {
+  text-transform: uppercase;
+  list-style-type: none;
+  width: 30%;
+  font-size: 1.2rem;
+}
+
+.image-right {
+  position: relative;
+  width: 50%;
+  background-color: #AB5CDB;
+  background-image: url('/images/image-header-desktop.jpg');
+  background-blend-mode: multiply;
+  background-size: cover;
+}
+
+.attribution {
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
