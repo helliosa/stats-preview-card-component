@@ -80,3 +80,50 @@ li {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media screen and (max-width: 375px) {
+  body {
+    margin: 8.8rem 2.6rem 0 2.6rem;
+  }
+  
+  .cards {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  
+  .stats {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 3rem;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2.8rem;
+    width: 264px;
+    line-height: 3.2rem;
+  }
+  
+  p {
+    width: 264px;
+    text-align: center;
+    line-height: 2.5rem;
+  }
+
+  ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0 0 0;
+  }
+
+  li {
+    padding-block-end: 2rem;
+  }
+
+  .image-right {
+    width: 100%;
+    height: 24rem;
+    background-image: url('images/image-header-mobile.jpg');
+    background-blend-mode: multiply;
+  }
+}
