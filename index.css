@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font-size: 10px;
+  overflow: hidden;
 }
 
 body {
@@ -17,12 +18,13 @@ body {
   display: flex;
   border-radius: 0.8rem;
   overflow: hidden;
+  width: 100%;
 }
 
 .stats {
   background-color: hsl(244, 38%, 16%);
   width: 50%;
-  padding: 4rem 6rem 0 6rem;
+  padding: 4rem 0 0 6rem;
   color: hsla(0, 0%, 100%, 0.6);
 }
 
@@ -64,10 +66,9 @@ li {
 }
 
 .image-right {
-  position: relative;
   width: 50%;
   background-color: #AB5CDB;
-  background-image: url('../images/image-header-desktop.jpg');
+  background-image: url('images/image-header-desktop.jpg');
   background-blend-mode: multiply;
   background-size: cover;
 }
@@ -79,8 +80,4 @@ li {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
-}
-
-@media screen and (max-width: 375px) {
-  
 }
