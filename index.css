@@ -1,12 +1,11 @@
 html {
   box-sizing: border-box;
   font-size: 10px;
-  overflow: hidden;
 }
 
 body {
   background-color: hsl(233, 47%, 7%);
-  margin: 17rem;
+  margin: 13rem;
   font-size: 1.5rem;
   line-height: 2.5rem;
   color: #fff;
@@ -80,8 +79,4 @@ li {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
-}
-
-@media screen and (max-width: 375px) {
-  
 }
