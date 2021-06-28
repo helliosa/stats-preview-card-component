@@ -67,7 +67,7 @@ li {
   position: relative;
   width: 50%;
   background-color: #AB5CDB;
-  background-image: url('/images/image-header-desktop.jpg');
+  background-image: url('../images/image-header-desktop.jpg');
   background-blend-mode: multiply;
   background-size: cover;
 }
@@ -82,7 +82,5 @@ li {
 }
 
 @media screen and (max-width: 375px) {
-  html {
-    font-size: 6px;
-  }
+  
 }
