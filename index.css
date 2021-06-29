@@ -81,7 +81,7 @@ li {
   color: hsl(228, 45%, 44%);
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 420px) {
   body {
     margin: 8.8rem 2.6rem 0 2.6rem;
   }
